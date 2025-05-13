@@ -2,14 +2,14 @@ import streamlit as st
 import streamlit.components.v1 as components
 import xtream
 
-components.html('''<script defer data-domain="xtream-checker.com" src="https://plausible.codewithadu.de/js/script.js"></script>''')
-
 st.set_page_config(
     page_title="Xtream UI API",
     page_icon=":guardsman:",
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+components.html('''<script defer data-domain="xtream-checker.com" src="https://plausible.codewithadu.de/js/script.js"></script>''')
 
 st.title("Xtream Checker")
 st.sidebar.title("Xtream Checker")
