@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     git \
     software-properties-common \
     && rm -rf /var/lib/apt/lists/* \
-    && git clone https://github.com/streamlit/streamlit-example.git . \
+    && git clone https://github.com/nazimboudeffa/xtream-checker-streamlit . \
     && pip3 install -r requirements.txt
 
 EXPOSE 8501
