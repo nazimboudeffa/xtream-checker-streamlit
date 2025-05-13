@@ -28,17 +28,16 @@ st.sidebar.markdown(
 st.sidebar.markdown(
     """
     ### Stream types to check
-    **Live**: Live TV streams
-    **VOD**: TODO
-    **Series**: TODO
+    - **Live**: Live TV streams
+    - **VoD**: TODO
+    - **Series**: TODO
     """
 )
 st.sidebar.markdown(
     """
     ### DONATION
     If you find this app useful, consider donating to support its development.
-    - [TIPPEE](https://www.tipeee.com/nazimboudeffa)
-    - [PayPal](https://www.paypal.me/nazimboudeffa)
+    [GitHub](https://www.github.com/nazimboudeffa)
     """
 )
 
