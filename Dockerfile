@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     && git clone https://github.com/streamlit/streamlit-example.git . \
     && pip3 install -r requirements.txt
 
-EXPOSE 8501
+EXPOSE 3000
 
 HEALTHCHECK CMD ["curl", "--fail", "http://localhost:8501/_stcore/health"]
 
