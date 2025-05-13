@@ -13,8 +13,8 @@ RUN apt-get update && apt-get install -y \
     && git clone https://github.com/streamlit/streamlit-example.git . \
     && pip3 install -r requirements.txt
 
-EXPOSE 3000
+EXPOSE 8501
 
 HEALTHCHECK CMD ["curl", "--fail", "http://localhost:8501/_stcore/health"]
 
-ENTRYPOINT ["streamlit", "run", "streamlit_app.py", "--server.port=3000"]
+ENTRYPOINT ["streamlit", "run", "streamlit_app.py", "--server.port=8501"]
